@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="back" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="label1" layoutX="64.0" layoutY="65.0" text="LMessage">
+         <font>
+            <Font name="Algerian" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="344.0" layoutY="65.0" text="SMessage">
+         <font>
+            <Font name="Algerian" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="615.0" layoutY="65.0" text="BMessage">
+         <font>
+            <Font name="Algerian" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label4" layoutX="883.0" layoutY="65.0" text="CMessage">
+         <font>
+            <Font name="Algerian" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="l1" layoutX="64.0" layoutY="102.0" prefHeight="39.0" prefWidth="122.0" promptText="user id" />
+      <TextField fx:id="l3" layoutX="64.0" layoutY="218.0" prefHeight="39.0" prefWidth="122.0" promptText="type" />
+      <TextField fx:id="s1" layoutX="344.0" layoutY="102.0" prefHeight="39.0" prefWidth="122.0" promptText="show/logout" />
+      <TextField fx:id="s2" layoutX="344.0" layoutY="161.0" prefHeight="39.0" prefWidth="122.0" promptText="text" />
+      <TextField fx:id="b1" layoutX="616.0" layoutY="102.0" prefHeight="39.0" prefWidth="122.0" promptText="message" />
+      <TextField fx:id="c1" layoutX="884.0" layoutY="102.0" prefHeight="39.0" prefWidth="122.0" promptText="receiver" />
+      <TextField fx:id="c2" layoutX="883.0" layoutY="161.0" prefHeight="39.0" prefWidth="122.0" promptText="text" />
+      <TextField fx:id="c3" layoutX="883.0" layoutY="218.0" prefHeight="39.0" prefWidth="122.0" promptText="filename" />
+      <Label layoutX="494.0" layoutY="14.0" text="CLIENT" textFill="#0a1f97">
+         <font>
+            <Font name="Agency FB Bold" size="44.0" />
+         </font>
+      </Label>
+      <Button fx:id="lbtn" layoutX="93.0" layoutY="279.0" mnemonicParsing="false" text="Send" />
+      <Button fx:id="sbtn" layoutX="373.0" layoutY="279.0" mnemonicParsing="false" text="Send" />
+      <Button fx:id="bbtn" layoutX="645.0" layoutY="279.0" mnemonicParsing="false" text="Send" />
+      <Button fx:id="cbtn" layoutX="912.0" layoutY="279.0" mnemonicParsing="false" text="Send" />
+      <TextArea fx:id="ta" layoutX="49.0" layoutY="345.0" prefHeight="283.0" prefWidth="1004.0" />
+      <PasswordField fx:id="l2" layoutX="64.0" layoutY="161.0" prefHeight="39.0" prefWidth="122.0" promptText="password" />
+   </children>
+</Pane>
