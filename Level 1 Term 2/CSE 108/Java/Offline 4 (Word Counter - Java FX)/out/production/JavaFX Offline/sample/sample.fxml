@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #b3d9ff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="bt1" layoutX="239.0" layoutY="116.0" mnemonicParsing="false" onAction="#file_chooser" prefHeight="44.0" prefWidth="124.0" style="-fx-background-color: slateblue; -fx-font-size: 20; -fx-text-fill: white; -fx-padding: 6 6 6 6; -fx-border-color: BLACK; -fx-border-radius: 4; -fx-font-weight: bold;" text="Choose File">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TableView fx:id="table" layoutX="134.0" layoutY="183.0" prefHeight="350.0" prefWidth="650.0">
+        <columns>
+          <TableColumn fx:id="wordd" prefWidth="313.0" text="Word" />
+          <TableColumn fx:id="count" minWidth="0.0" prefWidth="338.0" text="Frequency" />
+        </columns>
+      </TableView>
+      <Button layoutX="519.0" layoutY="116.0" mnemonicParsing="false" onAction="#update_table" prefHeight="44.0" prefWidth="144.0" style="-fx-background-color: slateblue; -fx-font-size: 20; -fx-text-fill: white; -fx-padding: 6 6 6 6; -fx-border-radius: 4; -fx-border-color: BLACK; -fx-font-weight: bold;" text="Update Table" />
+      <Label layoutX="301.0" layoutY="26.0" prefHeight="64.0" prefWidth="299.0" style="-fx-text-fill: white; -fx-background-color: #000080;" text="  WORD FREQUENCY">
+         <font>
+            <Font name="Agency FB" size="46.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
