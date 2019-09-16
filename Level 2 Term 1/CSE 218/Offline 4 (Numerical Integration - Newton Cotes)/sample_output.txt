@@ -1,0 +1,5 @@
+Trapeziod: 2 intervals
+1/3 rule: 4 intervals
+3/8 rule: 3 intervals
+
+Integral value: 3.12500
