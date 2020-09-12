@@ -2,6 +2,13 @@
 
 **A memorial of all offlines<sup>*</sup> completed during undergrad life in [CSE , BUET](https://cse.buet.ac.bd/)** 
 
+<p align="center">
+  <img src="Images/bernie.jpg" />
+</p>
+
+> Assignments in CSE , BUET is reffered to as Offlines
+
+&nbsp;
 ```ruby
 ├───Level 1 Term 2
 │   └───CSE 108
@@ -76,5 +83,5 @@
 
 &nbsp;
 
-*Assignments in CSE , BUET is reffered to as Offlines
+
 
