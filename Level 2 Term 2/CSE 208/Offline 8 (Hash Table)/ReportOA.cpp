@@ -77,7 +77,7 @@ struct HashTable_OpenAddressing
     HashTable_OpenAddressing(T1 func1,T1 func2,T2 func3)
     {
         N = 10000;
-        M = 10007; /* M > N , M prime */
+        M = 10007; /*N > M*/
 
         ht = vector<Node*>(M,NULL);
 
@@ -153,12 +153,8 @@ struct HashTable_OpenAddressing
         int firstDeletedIdx = -1;
         int x = 1; /*probe parameter*/
 
-        int num_op = 0;
-
         while(true)
         {
-            num_op++;
-
             if(ht[idx] != NULL && ht[idx]->isDeletedBefore == true)
             {
                 if(firstDeletedIdx == -1) firstDeletedIdx = idx;
@@ -175,6 +171,7 @@ struct HashTable_OpenAddressing
 
                     return false;
                 }
+
             }
             else if(ht[idx] == NULL)
             {
@@ -195,9 +192,7 @@ struct HashTable_OpenAddressing
             idx = normalize(init_offset + probe(key,x));
             x++;
 
-            collisionCnt ++;
-
-            if(num_op > M) cout<<"infinite loop"<<endl;
+            collisionCnt++;
         }
     }
 
@@ -272,7 +267,6 @@ int auxhashF(string s)
     return h;
 }
 
-
 int doubleHashingProbe(int x,int aux)
 {
     return x*aux;
@@ -290,7 +284,8 @@ int32_t main()
 
     HashTable_OpenAddressing h3(hashF1,auxhashF,customHashingProbe);
     HashTable_OpenAddressing h4(hashF2,auxhashF,customHashingProbe);
-//    h.print();
+
+//    freopen("in.txt", "r", stdin);
 
     int q;
     cin>>q;
@@ -345,7 +340,11 @@ int32_t main()
     cout<<"Custom Probing"<<endl;
     cout<<"N : "<<num_of_inputs<<" , Hash Function 1 :: Number of collsion : "<<h3.collisionCnt<<" , Average Probes : "<<setprecision(3)<<(h3.probecnt*1.0)/num_of_search<<endl;
     cout<<"N : "<<num_of_inputs<<" , Hash Function 2 :: Number of collsion : "<<h4.collisionCnt<<" , Average Probes : "<<setprecision(3)<<(h4.probecnt*1.0)/num_of_search<<endl;
+
+    #ifndef ONLINE_JUDGE
+    cout << "Time elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " s.\n"<<endl;
     cout<<endl;
+    #endif
 
     return 0;
 }

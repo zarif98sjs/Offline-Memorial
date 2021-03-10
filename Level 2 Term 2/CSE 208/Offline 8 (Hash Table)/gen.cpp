@@ -64,14 +64,21 @@ int32_t main(int argc, char* argv[])
     cout<<tot_op<<endl;
 
     vector<string>all_strings;
+    set<string>st;
 
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;)
     {
         string t = "";
         for(int j=0;j<7;j++) t = t + v[rand(1,mx)%52];
         cout<<"I "<<t<<endl;
 
-        all_strings.push_back(t);
+        if(st.count(t)==0)
+        {
+            all_strings.push_back(t);
+            st.insert(t);
+
+            i++;
+        }
     }
 
     int search_cnt = n/10;

@@ -210,7 +210,7 @@ int32_t main()
     HashTable_SeparateChaining h1(hashF1);
     HashTable_SeparateChaining h2(hashF2);
 
-//    cout<<0x7fffffff<<endl;
+//    freopen("in.txt", "r", stdin);
 
     int q;
     cin>>q;
@@ -251,13 +251,12 @@ int32_t main()
 
     cout<<"N : "<<num_of_inputs<<" , Hash Function 1 :: Number of collsion : "<<h1.collisionCnt<<" , Average Probes : "<<setprecision(3)<<(h1.probecnt*1.0)/num_of_search<<endl;
     cout<<"N : "<<num_of_inputs<<" , Hash Function 2 :: Number of collsion : "<<h2.collisionCnt<<" , Average Probes : "<<setprecision(3)<<(h2.probecnt*1.0)/num_of_search<<endl;
+//    h.printChainLengths();
 
     #ifndef ONLINE_JUDGE
-        cout << "Time elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " s.\n"<<endl;
-        cout<<endl;
+    cout << "Time elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " s.\n"<<endl;
+    cout<<endl;
     #endif
-
-//    h.printChainLengths();
 
     return 0;
 }
