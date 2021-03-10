@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Offline_9__Branch___Bound_"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Offline_9__Branch___Bound_">
+				<Option output="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Offline_9__Branch___Bound_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Offline_9__Branch___Bound_"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Offline_9__Branch___Bound_/fast">
+				<Option output="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Offline_9__Branch___Bound_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Offline_9__Branch___Bound_/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="brute">
+				<Option output="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/brute.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 brute"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="brute/fast">
+				<Option output="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/brute.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 brute/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="branchAndBound">
+				<Option output="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/branchAndBound.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 branchAndBound"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="branchAndBound/fast">
+				<Option output="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/branchAndBound.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 branchAndBound/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bruteRecursive">
+				<Option output="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/bruteRecursive.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 bruteRecursive"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bruteRecursive/fast">
+				<Option output="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/bruteRecursive.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 bruteRecursive/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="branchAndBoundNew">
+				<Option output="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/branchAndBoundNew.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 branchAndBoundNew"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="branchAndBoundNew/fast">
+				<Option output="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/branchAndBoundNew.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 branchAndBoundNew/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="branchAndBoundCoordinate">
+				<Option output="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/branchAndBoundCoordinate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 branchAndBoundCoordinate"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="branchAndBoundCoordinate/fast">
+				<Option output="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/branchAndBoundCoordinate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 branchAndBoundCoordinate/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/branchAndBound.cpp">
+			<Option target="branchAndBound"/>
+		</Unit>
+		<Unit filename="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/branchAndBoundCoordinate.cpp">
+			<Option target="branchAndBoundCoordinate"/>
+		</Unit>
+		<Unit filename="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/branchAndBoundNew.cpp">
+			<Option target="branchAndBoundNew"/>
+		</Unit>
+		<Unit filename="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/brute.cpp">
+			<Option target="brute"/>
+		</Unit>
+		<Unit filename="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/bruteRecursive.cpp">
+			<Option target="bruteRecursive"/>
+		</Unit>
+		<Unit filename="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/main.cpp">
+			<Option target="Offline_9__Branch___Bound_"/>
+		</Unit>
+		<Unit filename="J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch &amp; Bound)/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

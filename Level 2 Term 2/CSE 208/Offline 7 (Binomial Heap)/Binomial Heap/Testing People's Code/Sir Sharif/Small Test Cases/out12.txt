@@ -1,0 +1,18 @@
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 3 
+Printing Binomial Heap...
+Binomial Tree, B1
+Level 0 : 3 
+Level 1 : 9 
+Extract-Min returned 3
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 9 
+Find-Min returned 9
+Extract-Min returned 9
+Printing Binomial Heap...
+Printing Binomial Heap...
+Binomial Tree, B1
+Level 0 : 10 
+Level 1 : 11 

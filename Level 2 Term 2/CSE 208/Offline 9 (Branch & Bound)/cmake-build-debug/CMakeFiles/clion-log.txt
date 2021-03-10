@@ -1,0 +1,4 @@
+"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "J:\My Drive\La Academia\Level 2 Term 2\My Drive\CSE 208\Offline 9 (Branch & Bound)"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: J:/My Drive/La Academia/Level 2 Term 2/My Drive/CSE 208/Offline 9 (Branch & Bound)/cmake-build-debug

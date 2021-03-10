@@ -1,0 +1,9 @@
+Preorder : 1:b
+Preorder : 1:b()(3:r)
+Preorder : 2:b(1:r)(3:r)
+Preorder : 2:b(1:b)(3:b()(5:r))
+Preorder : 2:b(1:b)(5:b(3:r)(7:r))
+Preorder : 2:b(1:b)(5:r(3:b()(4:r))(7:b))
+Preorder : 2:b(1:b)(5:r(3:b()(4:r))(7:b(6:r)()))
+Preorder : 2:b(1:b)(5:r(3:b()(4:r))(7:b(6:r)(8:r)))
+Preorder : 5:b(2:r(1:b)(3:b()(4:r)))(7:r(6:b)(8:b()(10:r)))

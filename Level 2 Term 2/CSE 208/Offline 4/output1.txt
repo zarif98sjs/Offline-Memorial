@@ -1,0 +1,11 @@
+Graph Created
+Kruskal's Algorithm
+10
+0 2
+0 1
+Prim's Algorithm
+Root Node = 3
+0
+-1 0
+-1 1
+-1 2

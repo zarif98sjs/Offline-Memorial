@@ -1,0 +1,6 @@
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 12 
+Binomial Tree, B1
+Level 0 : 4 
+Level 1 : 12 

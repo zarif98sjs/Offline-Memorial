@@ -1,0 +1,10 @@
+16
+Kruskal's algorithm:
+0 1
+1 2
+0 3
+Prim's Algorithm:
+Root node = 2
+2 1
+1 0
+0 3

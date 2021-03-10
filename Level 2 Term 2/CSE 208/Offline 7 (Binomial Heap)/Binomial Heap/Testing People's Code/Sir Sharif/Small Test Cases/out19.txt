@@ -1,0 +1,36 @@
+Printing Binomial Heap...
+Binomial Tree, B2
+Level 0 : 2 
+Level 1 : 4 5 
+Level 2 : 11 
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 10 
+Binomial Tree, B2
+Level 0 : 2 
+Level 1 : 4 5 
+Level 2 : 11 
+Printing Binomial Heap...
+Binomial Tree, B1
+Level 0 : 5 
+Level 1 : 10 
+Binomial Tree, B2
+Level 0 : 2 
+Level 1 : 4 5 
+Level 2 : 11 
+Extract-Min returned 2
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 5 
+Binomial Tree, B2
+Level 0 : 4 
+Level 1 : 5 11 
+Level 2 : 10 
+Printing Binomial Heap...
+Binomial Tree, B1
+Level 0 : 3 
+Level 1 : 5 
+Binomial Tree, B2
+Level 0 : 4 
+Level 1 : 5 11 
+Level 2 : 10 

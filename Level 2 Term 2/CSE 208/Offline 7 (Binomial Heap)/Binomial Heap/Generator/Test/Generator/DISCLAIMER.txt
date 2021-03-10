@@ -1,0 +1,6 @@
+There are many possible binomial heaps , depending on your implementation .
+
+This implementation first merges the both heaps into one and then do addition . 
+Not like straight bitwise addition from both heap .
+
+Also , the tree might be differenet depending on how you handle duplicate keys . 

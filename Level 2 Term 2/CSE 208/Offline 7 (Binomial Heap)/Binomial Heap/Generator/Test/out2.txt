@@ -1,0 +1,58 @@
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 854 
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 143 
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 280 
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 575 
+Find-Min returned 575
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 578 
+Extract-Min returned 578
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 531 
+Extract-Min returned 531
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 975 
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 215 
+Find-Min returned 215
+Find-Min returned 215
+Find-Min returned 215
+Extract-Min returned 215
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 745 
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 746 
+Find-Min returned 746
+Find-Min returned 746
+Extract-Min returned 746
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 704 
+Extract-Min returned 704
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 94 
+Find-Min returned 94
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 494 
+Extract-Min returned 494
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 906 
+Printing Binomial Heap...
+Binomial Tree, B0
+Level 0 : 841 
