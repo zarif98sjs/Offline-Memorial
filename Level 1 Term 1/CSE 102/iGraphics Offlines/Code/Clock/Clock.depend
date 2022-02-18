@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1527916660 source:e:\zarif\igraphics\clock\imain.cpp
+	"iGraphics.h"
+
+1527916660 e:\zarif\igraphics\clock\igraphics.h
+	<stdio.h>
+	<stdlib.h>
+	<gl/glut.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<gl/glaux.h>
+
+1527946050 source:e:\zarif\igraphics\clock\new_clock.cpp
+	"iGraphics.h"
+
+1529851289 source:e:\zarif\buet cse 1-1\igraphics\clock\new_clock.cpp
+	"iGraphics.h"
+	<time.h>
+
+1527916660 e:\zarif\buet cse 1-1\igraphics\clock\igraphics.h
+	<stdio.h>
+	<stdlib.h>
+	<gl/glut.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	<gl/glaux.h>
+
