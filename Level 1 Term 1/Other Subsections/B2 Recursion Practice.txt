@@ -1,0 +1,58 @@
+#include <stdio.h>
+
+
+int factorial(int n)
+{
+    int i, value = 1;
+    for (i = 1; i <= n; i++) {
+        value = value * i;
+    }
+    return value;
+}
+
+int factorial_r(int n)
+{
+    if (n == 0) return 1;
+    return n * factorial_r(n-1);
+}
+
+int fib(int n)
+{
+    if (n == 1 || n == 2) return 1;
+    return fib(n-1) + fib(n-2);
+}
+
+
+int trib(int n)
+{
+    if (n == 1) return 0;
+    if (n == 2 || n == 3) return 1;
+    return trib(n-1) + trib(n-2) + trib(n-3);
+}
+
+
+int move(int source, int destination, int num_disk)
+{
+    if (num_disk == 1){
+        printf("%d: %d -> %d\n",num_disk, source, destination);
+        return 1;
+    }
+    int intermediate = 6 - (source + destination);
+    int n1 = move (source, intermediate, num_disk-1);
+    printf("%d: %d -> %d\n", num_disk, source, destination);
+    int n2 = move (intermediate, destination, num_disk-1);
+    return n1+n2+1;
+}
+
+
+int sum(int n)
+{
+    if (n == 1) return 1;
+    return sum(n-1) + n;
+}
+
+
+int main()
+{
+    printf("%d\n", sum(10));
+}

@@ -1,0 +1,280 @@
+Problem 1
+
+Reverse the integer that was given as input.
+
+Input:
+12762723
+
+Output:
+32726721
+-----------------------------------------------------
+
+
+Problem 2
+
+Print the series 1 + 2 + 3 + ... upto k terms, k is given as input, and determine the summation
+
+Input:
+5
+
+Output:
+1 + 2 + 3 + 4 + 5
+Sum = 15
+
+Input:
+6
+
+Output:
+1 + 2 + 3 + 4 + 5 + 6
+Sum = 21
+------------------------------------------------------------
+
+Problem 3
+
+Print the series (1) + (1 + 2) + (1 + 2 + 3) + (1 + 2 + 3 + 4) + ... upto k terms. k is given as input.
+Also, print the summation.
+
+input:
+4
+
+output:
+(1) + (1 + 2) + (1 + 2 + 3) + (1 + 2 + 3 + 4)
+Sum = 20
+
+Input:
+3
+
+Output:
+(1) + (1 + 2) + (1 + 2 + 3)
+Sum = 10
+----------------------------------------------------------------
+
+Problem 4
+
+Print the series 1 + (1 + 2*3) + (1 + 2*3 + 4*5*6) + (1 + 2*3 + 4*5*6 + 7*8*9*10) + ... upto k terms,
+k is given as input. Also, print the summation.
+
+Input:
+3
+
+Output:
+1 + (1 + 2*3) + (1 + 2*3 + 4*5*6)
+Sum = 135
+
+
+Input:
+4
+
+Output:
+1 + (1 + 2*3) + (1 + 2*3 + 4*5*6) + (1 + 2*3 + 4*5*6 + 7*8*9*10)
+Sum = 5302
+-----------------------------------------------------------------------
+
+Problem 5
+
+Print the series (1) + (2 + 3*4) + (5 + 6*7 + 8*9*10) + (11 + 12*13 + 14*15*16 + 17*18*19*20) + ... upto k terms,
+k is given as input. Also, print the summation.
+
+Input:
+4
+
+Output:
+(1) + (2 + 3*4) + (5 + 6*7 + 8*9*10) + (11 + 12*13 + 14*15*16 + 17*18*19*20)
+Sum = 120589
+
+Input:
+3
+
+Output:
+(1) + (2 + 3*4) + (5 + 6*7 + 8*9*10)
+Sum = 782
+
+Input:
+2
+
+Output:
+(1) + (2 + 3*4)
+Sum = 15
+------------------------------------------------------------------------
+
+
+Problem 6:
+
+Print the triangle shape as shown below.
+
+Input:
+8
+
+Output:
+*
+**
+***
+****
+*****
+******
+*******
+********
+
+Input:
+7
+
+Output:
+*
+**
+***
+****
+*****
+******
+*******
+
+Input:
+3
+
+Output:
+*
+**
+***
+-------------------------------------------------------
+
+Problem 7:
+
+Print the triangle shape as shown below. Number of lines in the triangle will be given as input.
+
+Input:
+10
+
+Output:
+**********
+*********
+********
+*******
+******
+*****
+****
+***
+**
+*
+
+Input:
+4
+
+Output:
+****
+***
+**
+*
+-----------------------------------------------------------
+
+Problem 8:
+
+Print the triangle shape as shown below. Number of lines in the triangle will be given as input.
+
+Input:
+8
+
+Output:
+********
+ *******
+  ******
+   *****
+    ****
+     ***
+      **
+       *
+	   
+	   
+Input: 5
+
+Output:
+*****
+ ****
+  ***
+   **
+    *
+	   
+	   
+----------------------------------------------------------------------------
+Problem 9:
+
+Print the triangle shape as shown below. Number of lines in the triangle will be given as input.
+
+
+Input:
+11
+
+Output:
+          *
+	 **
+        ***
+       ****
+      *****
+     ******
+    *******
+   ********
+  *********
+ **********
+***********
+
+Input:
+5
+
+Output:
+    *
+   **
+  ***
+ ****
+*****
+
+------------------------------------------------
+Problem 10:
+
+Print the shape of a diamond. Number of stars in the largest line will be given as input. (An odd number).
+
+	 
+Input:
+11:
+
+Output:
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+ *********
+  *******
+   *****
+    ***
+     *
+	 
+Input:
+5
+
+Output:
+  *
+ ***
+*****
+ ***
+  *
+---------------------------------------------------
+
+Problem 11:
+Same as problem 10, only it will be hollow.
+
+
+
+Input:
+11
+
+Output:
+     *
+    * *
+   *   *
+  *     *
+ *       *
+*         *
+ *       *
+  *     *
+   *   *
+    * *
+     *
